@@ -2,11 +2,11 @@
 
 A Power BI project analyzing 175 years of global temperature anomaly data (NOAA) alongside 274 years of CO₂ emissions data (Our World in Data), built on a star-schema model with time-intelligence measures and a hand-built Pearson-r correlation between temperature and emissions.
 
-![Global Climate Analysis overview dashboard — KPI cards for warming rate, correlation, highest anomaly and CO2 per capita, with temperature and emissions trend lines from 1850–2025]
+[Global Climate Analysis overview dashboard — KPI cards for warming rate, correlation, highest anomaly and CO2 per capita, with temperature and emissions trend lines from 1850–2025]
 
  
 <img width="584" height="332" alt="Image" src="https://github.com/user-attachments/assets/3515e0d2-cadc-409f-baa5-912edf0a5195" />
----
+
 
 ## 📊 Dataset
 
@@ -26,7 +26,7 @@ A simple star schema: the **Date** table sits as the bridging dimension between 
 
 The `Date` table also carries a `YearMonth` key that isn't in use yet — its description flags it as the future relationship key for a planned **Sea Level Rise** table, so the model is deliberately built ahead of that next addition.
 
----
+
 
 ## 💡 Key Insights
 
@@ -44,7 +44,7 @@ The `Date` table also carries a `YearMonth` key that isn't in use yet — its de
 
 **Decade breakdown** — average temperature anomaly and average CO₂ per capita, grouped by decade from the 1930s to the 2020s:
 
-![Average temperature anomaly and average CO2 emissions per capita by decade, both trending upward from the 1930s to the 2020s] 
+[Average temperature anomaly and average CO2 emissions per capita by decade, both trending upward from the 1930s to the 2020s] 
  
 <img width="586" height="333" alt="Image" src="https://github.com/user-attachments/assets/03077b87-d0c3-46f8-99d2-c0f6fe70e9ae" />
 
@@ -62,7 +62,7 @@ The `Date` table also carries a `YearMonth` key that isn't in use yet — its de
 
  
 <img width="584" height="327" alt="Image" src="https://github.com/user-attachments/assets/96daafe1-e8a3-42bd-a233-9feab01b4a88" />
----
+
 
 ## 🧮 DAX Measures
 

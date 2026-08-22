@@ -2,8 +2,10 @@
 
 A Power BI project analyzing 175 years of global temperature anomaly data (NOAA) alongside 274 years of CO₂ emissions data (Our World in Data), built on a star-schema model with time-intelligence measures and a hand-built Pearson-r correlation between temperature and emissions.
 
-![Global Climate Analysis overview dashboard — KPI cards for warming rate, correlation, highest anomaly and CO2 per capita, with temperature and emissions trend lines from 1850–2025](screenshots/01-overview.png)
+![Global Climate Analysis overview dashboard — KPI cards for warming rate, correlation, highest anomaly and CO2 per capita, with temperature and emissions trend lines from 1850–2025]
 
+ 
+<img width="584" height="332" alt="Image" src="https://github.com/user-attachments/assets/3515e0d2-cadc-409f-baa5-912edf0a5195" />
 ---
 
 ## 📊 Dataset
@@ -42,16 +44,24 @@ The `Date` table also carries a `YearMonth` key that isn't in use yet — its de
 
 **Decade breakdown** — average temperature anomaly and average CO₂ per capita, grouped by decade from the 1930s to the 2020s:
 
-![Average temperature anomaly and average CO2 emissions per capita by decade, both trending upward from the 1930s to the 2020s](screenshots/02-decades.png)
+![Average temperature anomaly and average CO2 emissions per capita by decade, both trending upward from the 1930s to the 2020s] 
+ 
+<img width="586" height="333" alt="Image" src="https://github.com/user-attachments/assets/03077b87-d0c3-46f8-99d2-c0f6fe70e9ae" />
 
 **Correlation & year-over-year change** — the scatter plot below relates average annual CO₂ per capita to temperature anomaly with a trend line, alongside average YoY temperature change by decade:
 
-![Scatter plot showing a positive relationship between CO2 emissions per capita and temperature anomalies, plus a bar chart of average year-over-year temperature change by decade showing acceleration since the 1970s–1980s](screenshots/03-correlation-insights.png)
+![Scatter plot showing a positive relationship between CO2 emissions per capita and temperature anomalies, plus a bar chart of average year-over-year temperature change by decade showing acceleration since the 1970s–1980s]
+
+ 
+<img width="580" height="325" alt="Image" src="https://github.com/user-attachments/assets/692d9bc7-c9a2-4286-8679-f816a1c4cd98" />
+
 
 **Warming trend & country rankings** — long-term temperature and CO₂ trend lines against a forecast band, a table of the years with the highest temperature anomalies, and the top 10 countries by average CO₂ emissions per capita:
 
-![Long-term temperature anomaly and CO2 emissions trend lines with forecast bands, a table of years with the highest temperature anomalies, and a bar chart of the top 10 countries by average CO2 emissions per capita](screenshots/04-country-rankings.png)
+![Long-term temperature anomaly and CO2 emissions trend lines with forecast bands, a table of years with the highest temperature anomalies, and a bar chart of the top 10 countries by average CO2 emissions per capita]
 
+ 
+<img width="584" height="327" alt="Image" src="https://github.com/user-attachments/assets/96daafe1-e8a3-42bd-a233-9feab01b4a88" />
 ---
 
 ## 🧮 DAX Measures

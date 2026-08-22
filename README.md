@@ -106,7 +106,7 @@ This builds a year-by-year table (matching each year's temperature anomaly to th
 - **`Warming Rate Last 30 Years`** is a static, hardcoded value (0.229 °C/decade for 1995–2025) rather than one computed from the local data — noted in the measure's own description as intentional, for use in a card visual.
 - **`Global CO2 Per Capita`** and the correlation measure average *equally* across all 231 entities in the OWID table. Since that list mixes individual countries with continent/region aggregates, this is **not** a true population-weighted global figure (total world emissions ÷ total world population) — it's an unweighted average across whatever entities exist in the "Country Name" column for that year.
 
----
+
 
 ## ⚠️ Known Limitations
 

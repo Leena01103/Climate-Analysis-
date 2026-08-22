@@ -1,4 +1,6 @@
- # Global Climate Analysis: Temperature Anomalies & CO₂ Emissions (1850–2025)
+ # Global Climate Analysis: Temperature Anomalies & CO₂ Emissions (1850–2025) with Power BI
+
+
 
 A Power BI project analyzing 175 years of global temperature anomaly data (NOAA) alongside 274 years of CO₂ emissions data (Our World in Data), built on a star-schema model with time-intelligence measures and a hand-built Pearson-r correlation between temperature and emissions.
 
